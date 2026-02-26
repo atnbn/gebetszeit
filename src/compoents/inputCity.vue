@@ -56,7 +56,7 @@ const selectCity = (place: any) => {
         {{ place.display_name }}
       </li>
     </ul>
-    <SafeCity v-if="tooltip" />
+    <!-- <SafeCity v-if="tooltip" /> -->
   </div>
 </template>
 
